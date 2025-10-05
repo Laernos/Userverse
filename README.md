@@ -1,17 +1,14 @@
-
-**Userverse: Username Explorer**  
-
 This Python script scans a list of Instagram usernames to check if they are available. It's fast, multithreaded, and handles rate-limiting like a pro!  
 
-## 🌟 Features  
+## Features  
 
-✅ **Concurrent Requests**: Speed up the process with multithreading.  
-✅ **Rate-Limit Handling**: Automatically retries when limits are detected.  
-✅ **Random User-Agent**: Stay undetected with rotating user agents.  
+**Concurrent Requests**: Speed up the process with multithreading.  
+**Rate-Limit Handling**: Automatically retries when limits are detected.  
+**Random User-Agent**: Stay undetected with rotating user agents.  
 
 ## Installation
 <details>
-<summary><b>🛠️ Installation (click to expand)</b></summary>
+<summary><b>Installation Steps: (click to expand)</b></summary>
 
 2. **Clone or download this repository**  
    ```bash
@@ -40,10 +37,10 @@ This Python script scans a list of Instagram usernames to check if they are avai
 
 ## Console Output  
 ```plaintext
-🛠️ SYSTEM DIAGNOSTICS: Pre-checking username 'instagram'  
-✅ SYSTEM CHECK PASSED: Rate limits are stable  
+SYSTEM DIAGNOSTICS: Pre-checking username 'instagram'  
+SYSTEM CHECK PASSED: Rate limits are stable  
 
-🚀 ACTIVATING SCAN MODULE: Initiating username availability search  
+Initiating username availability search...
 
 ================= AVAILABLE USERNAMES =================  
 💡 username1  
@@ -53,9 +50,9 @@ This Python script scans a list of Instagram usernames to check if they are avai
 ⛔ username2  
 ⛔ username3  
 
-🛰️ MISSION COMPLETE: Username scan finalized. Results stored in 'available.txt'
+Username scan finalized. Results stored in 'available.txt'
 ```
 
-## ⚠️ Disclaimer  
+## Disclaimer  
 
 Use responsibly and in compliance with Instagram’s Terms of Service.
