@@ -15,25 +15,26 @@ This Python script scans a list of Instagram usernames to check if they are avai
 
 <details>
 <summary><b>🛠️ Installation (click to expand)</b></summary>
-1. ** Install dependencies**
+   
+1. **Install dependencies**
    ```bash
    pip install requests fake-useragent colorama
    ```
 
-1. **Clone or download this repository**  
+2. **Clone or download this repository**  
    ```bash
    git clone https://github.com/yourusername/userverse.git
    cd userverse
    ```
 
-2. **Create a file named `usernames.txt`** with one username per line:  
+3. **Add the usernames you want to check for availability to the usernames.txt**
    ```plaintext
    username1
    username2
    username3
    ```
 
-3. **Run the script**  
+4. **Run the script**  
    ```bash
    python main.py
    ```
