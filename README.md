@@ -38,13 +38,28 @@ This Python script scans a list of Instagram usernames to check if they are avai
    ```bash
    python main.py
    ```
-
-4. **View results**  
-   - ✅ Available usernames → saved in `available.txt`  
-   - ⛔ Taken usernames → shown in console output  
-
 </details>
 
+---
+
+
+## Console Output  
+```plaintext
+🛠️ SYSTEM DIAGNOSTICS: Pre-checking username 'instagram'  
+✅ SYSTEM CHECK PASSED: Rate limits are stable  
+
+🚀 ACTIVATING SCAN MODULE: Initiating username availability search  
+
+================= AVAILABLE USERNAMES =================  
+💡 username1  
+💡 username4  
+
+================== TAKEN USERNAMES ==================  
+⛔ username2  
+⛔ username3  
+
+🛰️ MISSION COMPLETE: Username scan finalized. Results stored in 'available.txt'
+```
 ---
 
 ## ⚠️ Disclaimer  
