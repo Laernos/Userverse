@@ -1,9 +1,7 @@
 
-**Userverse: The Infinite Username Explorer**  
+**Userverse: Username Explorer**  
 
 This Python script scans a list of Instagram usernames to check if they are available. It's fast, multithreaded, and handles rate-limiting like a pro!  
-
----
 
 ## 🌟 Features  
 
@@ -11,20 +9,19 @@ This Python script scans a list of Instagram usernames to check if they are avai
 ✅ **Rate-Limit Handling**: Automatically retries when limits are detected.  
 ✅ **Random User-Agent**: Stay undetected with rotating user agents.  
 
----
-
+## Installation
 <details>
 <summary><b>🛠️ Installation (click to expand)</b></summary>
-   
-1. **Install dependencies**
-   ```bash
-   pip install requests fake-useragent colorama
-   ```
 
 2. **Clone or download this repository**  
    ```bash
    git clone https://github.com/yourusername/userverse.git
    cd userverse
+   ```
+   
+2. **Install dependencies**
+   ```bash
+   pip install requests fake-useragent colorama
    ```
 
 3. **Add the usernames you want to check for availability to the usernames.txt**
@@ -39,9 +36,7 @@ This Python script scans a list of Instagram usernames to check if they are avai
    python main.py
    ```
 </details>
-
----
-
+<br>
 
 ## Console Output  
 ```plaintext
@@ -60,7 +55,6 @@ This Python script scans a list of Instagram usernames to check if they are avai
 
 🛰️ MISSION COMPLETE: Username scan finalized. Results stored in 'available.txt'
 ```
----
 
 ## ⚠️ Disclaimer  
 
