@@ -1,10 +1,10 @@
-This Python script scans a list of Instagram usernames to check if they are available. It's fast, multithreaded, and handles rate-limiting like a pro!  
+This Python script scans a list of Instagram usernames to check if they are available.
 
 ## Features  
 
-**Concurrent Requests**: Speed up the process with multithreading.  
-**Rate-Limit Handling**: Automatically retries when limits are detected.  
-**Random User-Agent**: Stay undetected with rotating user agents.  
+- Concurrent Requests
+- Rate Limit Handling
+- Random User Agent
 
 ## Installation
 <details>
@@ -52,7 +52,3 @@ Initiating username availability search...
 
 Username scan finalized. Results stored in 'available.txt'
 ```
-
-## Disclaimer  
-
-Use responsibly and in compliance with Instagram’s Terms of Service.
